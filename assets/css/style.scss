@@ -14,9 +14,9 @@
     background-position: center;
 
 }
-.page-header::before {
+.page-header::after {
     content: ""; 
-    position: absolute; 
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
