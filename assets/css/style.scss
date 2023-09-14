@@ -1,0 +1,32 @@
+---
+---
+
+$header-bg-color: #2daffd;
+$header-bg-color-second: #2daffd;
+
+// linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+
+@import "{{ site.theme }}";
+// @import 'jekyll-theme-cayman';
+
+.people {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+}
+
+.person {
+    width: calc(25% - 10px); 
+    margin-right: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-rect {
+    height: 0;
+    padding-bottom: 100%; 
+    display: block;
+    width: 100%;
+}
