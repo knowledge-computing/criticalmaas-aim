@@ -1,10 +1,19 @@
 ---
 ---
 
-$header-bg-color: #2daffd;
+// $header-bg-color: #2daffd;
 $header-bg-color-second: #2daffd;
 
 // linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+
+.page-header {
+    background-image: url('./bg.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+
+}
+
 
 @import "{{ site.theme }}";
 // @import 'jekyll-theme-cayman';
@@ -17,7 +26,7 @@ $header-bg-color-second: #2daffd;
 }
 
 .person {
-    width: calc(25% - 10px); 
+    width: calc(20% - 10px); 
     margin-right: 10px; 
     display: flex;
     flex-direction: column;
