@@ -15,7 +15,8 @@
 
 }
 .black-border {
-    border: 1px solid black;
+    -webkit-text-stroke: 2px black;
+    text-stroke: 2px black;
 }
 
 .project-tagline{
@@ -28,8 +29,8 @@
 }
 
 .btn:hover{
-    color:rgb(5, 65, 5);
-    border: 1px solid rgb(5, 65, 5);
+    color:maroon;
+    border: 1px solid maroon;
 }
 
 
