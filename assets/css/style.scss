@@ -14,10 +14,7 @@
     background-position: center;
 
 }
-.black-border {
-    -webkit-text-stroke: 1px black;
-    text-stroke: 1px black;
-}
+
 
 .project-tagline{
     font-weight: bold; 
@@ -25,13 +22,10 @@
 
 .btn{
     font-weight: bold; 
-    background-color:maroon;
+    background-color:rgba(3, 116, 70, 0.702);
 }
 
-.btn:hover{
-    color:maroon;
-    border: 1px solid maroon;
-}
+
 
 
 .people {
