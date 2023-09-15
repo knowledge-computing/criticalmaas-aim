@@ -10,7 +10,7 @@ Critical minerals are vital components in modern technology and the global econo
 {% include PIs.html %}
 
 
-## Members:
+# Members:
 
 {% include members.html %}
 
