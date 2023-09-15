@@ -14,14 +14,23 @@
     background-position: center;
 
 }
+.project-name{
+    border: 1px solid black;
+}
 
 .project-tagline{
     font-weight: bold; 
+    border: 1px solid black;
 }
 
 .btn{
     font-weight: bold; 
     background-color:rgb(17, 119, 17);
+}
+
+.btn: hover{
+    color:rgb(17, 119, 17);
+    border: 1px solid rgb(17, 119, 17);
 }
 
 
